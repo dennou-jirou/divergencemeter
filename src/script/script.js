@@ -67,7 +67,7 @@
       }
       else{
         turn_on();
-        if(!timer_refresh){timer_refresh=setTimeout(re_fresh,8596);}
+        if(!timer_refresh){timer_refresh=setTimeout(re_fresh,104859);}
       }
     }
 
@@ -75,7 +75,7 @@
       clearTimeout(timer_refresh_f);
       timer_refresh_f=null;
       flash_update();
-      if(!timer_refresh_f){timer_refresh_f=setTimeout(re_fresh_flash,596);}
+      if(!timer_refresh_f){timer_refresh_f=setTimeout(re_fresh_flash,859);}
     }
 
     function divergence_update(){
@@ -121,7 +121,7 @@
           end[i]=35-Math.floor(rdm*25);
         }
         turn_off();
-        if(!timer_change){timer_change=setTimeout(divergence_change,104);}
+        if(!timer_change){timer_change=setTimeout(divergence_change,485);}
       }
       else if(counter_changing>0 && counter_changing<=35){
         counter_changing++;
@@ -140,7 +140,7 @@
           on[i]=_on[i];
         }
         turn_on();
-        if(!timer_refresh){timer_refresh=setTimeout(re_fresh,1048);}
+        if(!timer_refresh){timer_refresh=setTimeout(re_fresh,859);}
       }
     }
 
