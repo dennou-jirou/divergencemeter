@@ -141,9 +141,48 @@
     }
 
     footer p{
+      color:RGBA(245,144,44,1);
+      text-shadow:0 0 0.2vw #ffffff;
+      text-shadow:0 0 0.5vw #ffffff;
+      text-shadow:0 0 0.2vw #f23113;
+      text-shadow:0 0 0.5vw #f23113;
+      text-shadow:0 0 0.7vw #f23113;
+      text-shadow:0 0 1.0vw #f23113;
+      text-shadow:0 0 1.2vw #f23113;
+      text-shadow:0 0 1.5vw #f23113;
+      text-shadow:0 0 1.7vw #f23113;
+      text-shadow:0 0 2.0vw #f23113;
       font-size: 2vmin;
       position: static;
       user-select: none;
+    }
+
+    footer a.twitter{
+      color:#1da1f2;
+      text-shadow:0 0 0.2vw #ffffff;
+      text-shadow:0 0 0.5vw #ffffff;
+      text-shadow:0 0 0.2vw #1da1f2;
+      text-shadow:0 0 0.5vw #1da1f2;
+      text-shadow:0 0 0.7vw #1da1f2;
+      text-shadow:0 0 1.0vw #1da1f2;
+      text-shadow:0 0 1.2vw #1da1f2;
+      text-shadow:0 0 1.5vw #1da1f2;
+      text-shadow:0 0 1.7vw #1da1f2;
+      text-shadow:0 0 2.0vw #1da1f2;
+    }
+
+    footer a.FB{
+      color:#1876f2;
+      text-shadow:0 0 0.2vw #ffffff;
+      text-shadow:0 0 0.5vw #ffffff;
+      text-shadow:0 0 0.2vw #1876f2;
+      text-shadow:0 0 0.5vw #1876f2;
+      text-shadow:0 0 0.7vw #1876f2;
+      text-shadow:0 0 1.0vw #1876f2;
+      text-shadow:0 0 1.2vw #1876f2;
+      text-shadow:0 0 1.5vw #1876f2;
+      text-shadow:0 0 1.7vw #1876f2;
+      text-shadow:0 0 2.0vw #1876f2;
     }
 
     footer p.h1{
