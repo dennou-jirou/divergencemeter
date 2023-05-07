@@ -85,6 +85,7 @@
 
     p{
       font-size: 15vmin;
+      line-height: 0.2;
       color:RGBA(35,35,35,0.2);
       font-family: "微軟正黑體", sans-serif;
       font-weight: lighter;
@@ -95,7 +96,14 @@
       user-select: none;
     }
 
-    p.on{
+    a{
+      color:RGBA(245,144,44,1);
+      font-family: "微軟正黑體", sans-serif;
+      font-weight: lighter;
+      text-align: center;
+    }
+
+    .on{
       color:RGBA(245,144,44,1);
       text-shadow:0 0 0.2vw #ffffff;
       text-shadow:0 0 0.5vw #ffffff;
@@ -120,4 +128,35 @@
       color:RGBA(245,144,44,0.8);
       top:calc(50vh - 39vmin);
       left:calc(50vw - 21.75vmin);
+    }
+
+    footer{
+      background-color:#000000;
+      margin:0;
+      height:10vmin;
+      width:100vw;
+      position: absolute;
+      top:calc(100vh - 10vmin);
+      left:0;
+    }
+
+    footer p{
+      font-size: 2vmin;
+      position: static;
+      user-select: none;
+    }
+
+    footer p.h1{
+      font-size: 3vmin;
+      position: static;
+      user-select: none;
+    }
+
+    footer div{
+      float:left;
+      margin:0;
+      height:100%;
+      width:50%;
+      top:0;
+      left:0;
     }
