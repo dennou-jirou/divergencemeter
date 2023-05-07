@@ -133,10 +133,10 @@
     footer{
       background-color:#000000;
       margin:0;
-      height:12vmin;
+      height:7vh;
       width:100vw;
       position: absolute;
-      top:calc(100vh - 12vmin);
+      top:calc(100vh - 7vh);
       left:0;
     }
 
@@ -150,7 +150,7 @@
     }
 
     footer p{
-      font-size: 6vmin;
+      font-size: 3.5vh;
       position: static;
       user-select: none;
       color:RGBA(245,144,44,1);
